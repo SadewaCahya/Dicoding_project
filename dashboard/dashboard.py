@@ -18,7 +18,7 @@ def create_weekday(df):
 
     return weekday
 
-df = pd.read_csv("D:\project dicoding\dashboard\data_main.csv")
+df = pd.read_csv("data_main.csv")
 year = df[df['yr'] == 0]
 
 casual = create_casual_user(df)
