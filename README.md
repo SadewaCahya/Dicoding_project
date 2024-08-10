@@ -3,16 +3,17 @@
 ## This is my final project for the Dicoding course 'Belajar Analisa Data Dengan Python.' The project involves analyzing a bike-sharing dataset and creating a dashboard to present the findings.
 
 # 1. File Structures
-├───dashboard
-| ├───main_data.csv
-| └───dashboard.py
-├───data
-| ├───data_1.csv
-| └───data_2.csv
-├───notebook.ipynb
-├───README.md
-└───requirements.txt
-└───url.txt
+.
+├── dashboard
+│   ├── dashboard.py
+│   └── day.csv
+├── data
+│   ├── Readme.txt
+│   ├── day.csv
+|   └── hour.csv
+├── README.md
+├── notebook.ipynb
+└── requirements.txt
 
 # 2. Cycle Project
 1. Data Wrangling -> Gathering, assessing, and cleaning the data.
