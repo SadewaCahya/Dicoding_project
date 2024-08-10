@@ -2,18 +2,13 @@
 
 This is my final project for the Dicoding course 'Belajar Analisa Data Dengan Python.' The project involves analyzing a bike-sharing dataset and creating a dashboard to present the findings.
 
-# 1. File Structures
-mkdir -p Dicoding_project/{dashboard,data}
-cd Dicoding_project
-touch dashboard/dashboard.py dashboard/day.csv data/day.csv data/hour.csv README.md notebook.ipynb requirements.txt
-
-# 2. Cycle Project
+# 1. Cycle Project
 1. Data Wrangling -> Gathering, assessing, and cleaning the data.
 2. Exploratory Data Analysis (EDA) -> Exploring the data to uncover patterns and insights.
 3. Data Visualization -> Creating visualizations based on insights from the data.
 4. Dashboard -> Building a dashboard to present the analyzed data and visualizations.
 
-# 3. Getting Started
+# 2. Getting Started
 ## notebook.ipynb
 1. Download the project files.
 2. Open Google Colab and create a new notebook.
