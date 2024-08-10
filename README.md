@@ -3,18 +3,9 @@
 This is my final project for the Dicoding course 'Belajar Analisa Data Dengan Python.' The project involves analyzing a bike-sharing dataset and creating a dashboard to present the findings.
 
 # 1. File Structures
-.
-
--├── dashboard
--│   ├── dashboard.py
--│   └── day.csv
--├── data
--│   ├── Readme.txt
--│   ├── day.csv
--|   └── hour.csv
--├── README.md
--├── notebook.ipynb
--└── requirements.txt
+mkdir -p Dicoding_project/{dashboard,data}
+cd Dicoding_project
+touch dashboard/dashboard.py dashboard/day.csv data/day.csv data/hour.csv README.md notebook.ipynb requirements.txt
 
 # 2. Cycle Project
 1. Data Wrangling -> Gathering, assessing, and cleaning the data.
