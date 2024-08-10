@@ -2,7 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit as st
 import seaborn as sns
-from PIL import Image
 
 def create_casual_user(df): 
     casual_user = year['casual'].sum()
@@ -26,8 +25,7 @@ casual = create_casual_user(df)
 registered = create_registered_user(df)
 
 st.header("Bike Sharing Dashboard 🚲")
-image = Image.open("D:\project dicoding\dashboard\images.jpeg")
-st.image(image, use_column_width=True)
+st.image("D:\project dicoding\dashboard\images.jpeg")
 st.subheader("Yearly User Casual & Registered (2011)")
 
 col1, col2 = st.columns(2)
